@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Shopee</string>
+    <string name="dn">Đăng Nhập</string>
+    <string name="dk">Đăng Ký</string>
+    <string name="TC">Home</string>
+    <string name="DH">Đơn hàng</string>
+    <string name="YT">Yêu thích</string>
+    <string name="TB">Thông báo</string>
+    <string name="Me">Tôi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

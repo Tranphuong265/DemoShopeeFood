@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "665738358098",
+    "project_id": "shopeefood-a5909",
+    "storage_bucket": "shopeefood-a5909.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665738358098:android:2ec10df978d75f8b539e8b",
+        "android_client_info": {
+          "package_name": "com.example.shopee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665738358098-ao4k8df42u575kpjstet1vflq0p2kc1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKl7TtE4XVRRfDuv2zaPtM6KCgB8NzWsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665738358098-ao4k8df42u575kpjstet1vflq0p2kc1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

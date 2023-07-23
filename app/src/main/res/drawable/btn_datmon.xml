@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="24dp"
+    android:height="22dp"
+    android:viewportWidth="24"
+    android:viewportHeight="22"
+    >
+    <group>
+        <clip-path
+            android:pathData="M1 0H23C23.5523 0 24 0.447715 24 1V21C24 21.5523 23.5523 22 23 22H1C0.447715 22 0 21.5523 0 21V1C0 0.447715 0.447715 0 1 0Z"
+            />
+        <path
+            android:pathData="M0 0V22H24V0"
+            android:fillColor="#FD2F2F"
+            />
+    </group>
+</vector>

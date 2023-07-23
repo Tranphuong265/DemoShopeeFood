@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/start_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/shopeefood"
+        android:layout_width="250dp"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/shopeefood"
+        android:elevation="4dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_dn"
+        android:layout_width="305dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/shopeefood"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/btn_dn"
+        android:layout_marginTop="520dp"
+        app:elevation="10dp"
+        android:stateListAnimator="@null"
+        android:outlineProvider="bounds"
+        android:text="@string/dn"
+        android:textAppearance="@style/dn"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_dky"
+        android:layout_width="305dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="600dp"
+        android:elevation="10dp"
+        android:outlineProvider="bounds"
+        android:background="@drawable/btn_dk"
+        android:text="@string/dk"
+        android:textAppearance="@style/dk" />
+</RelativeLayout>

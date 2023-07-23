@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="305dp"
+    android:height="55dp"
+    android:viewportWidth="305"
+    android:viewportHeight="55"
+    android:opticalInsetTop="@dimen/cardview_default_elevation"
+    >
+    <group>
+        <clip-path
+            android:pathData="M10 0H293C298.523 0 303 4.47715 303 10V44C303 49.5228 298.523 54 293 54H10C4.47715 54 0 49.5228 0 44V10C0 4.47715 4.47715 0 10 0Z"
+            />
+        <path
+            android:pathData="M0 0V54H303V0"
+            android:fillColor="#EE4E2C"
+            />
+    </group>
+</vector>

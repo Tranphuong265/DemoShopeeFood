@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgMon"
+            android:layout_width="110dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:id="@+id/ct_mon"
+            android:layout_toRightOf="@id/imgMon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nameMon"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="Tên món"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/black"
+                android:paddingStart="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/giaMon"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="Giá 2000đ"
+                android:textColor="#C80000"
+                android:textSize="19sp"
+                android:layout_marginBottom="7dp"
+                android:paddingStart="5dp"
+                android:textStyle="bold"/>
+            </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btndat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="7dp"
+            android:includeFontPadding="false"
+            android:text="+"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_datmon"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
